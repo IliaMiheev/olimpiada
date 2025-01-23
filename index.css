@@ -1,0 +1,126 @@
+.container {
+    background: orangered;
+    display: flex;
+    padding: 10px;
+}
+
+.container ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 0 20px;
+    margin-right: 15px;
+    flex-wrap: wrap;
+}
+
+.container a {
+    color: #fff;
+}
+
+.container li {
+    margin: 10px;
+}
+
+/* Шапка сайта */
+
+header {
+    border-radius: 0 0 30px 30px;
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+}
+
+/* Популярные конкурсы */
+.card {
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+
+.slider {
+    border: #fff 1px solid;
+    border-right: none;
+    border-left: none;
+    padding: 10px;
+    ;
+}
+
+a {
+    color: rgb(151, 40, 0);
+}
+
+#right_button {
+    border-radius: 0 30px 30px 0;
+}
+
+#left_button {
+    border-radius: 30px 0 0 30px;
+}
+
+/* Приветствие организаторов */
+
+video {
+    width: 70%;
+}
+
+/* Наши конкурсы */
+
+.grid_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.conkurs {
+    padding: 10px;
+    border: orangered solid 1px;
+    border-radius: 30px;
+    box-shadow: -5px -5px orangered;
+}
+
+.conkurs img {
+    width: 90%;
+}
+/* Отзывы */
+
+span {
+    color: rgb(143, 38, 0);
+}
+
+/* Подвал сайта */
+footer {
+    border-radius: 30px 30px 0 0;
+    display: block;
+}
+
+footer ul {
+    display: block;
+    width: 100%;
+}
+
+@media (max-width:1000px) {
+    body {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width:1930px){
+    .card {
+        width: 80%
+    }
+    .form {
+        width: 80%
+    }
+    .grid_container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:1500px){
+    #coments {
+        font-size: 0.8em;
+    }
+}

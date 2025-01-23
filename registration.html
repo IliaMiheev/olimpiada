@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="./general.css">
+    <link rel="stylesheet" href="./registration.css">
+</head>
+<body>
+    <h1>Регистрация</h1>
+    <form class="form">
+        <label for="email">Введите вашу почту: </label><br><br>
+        <input required type="email" name="email" id="email" placeholder="Ваша почта">
+        <br><br>
+        
+        <label for="firstname">Введите ваше имя: </label><br><br>
+        <input required type="text" name="firstname" id="firstname" placeholder="Ваше имя">
+        <br><br>
+
+        <label for="lastname">Введите вашу фамилию: </label><br><br>
+        <input required type="text" name="lastname" id="lastname" placeholder="Ваша фамилия">
+        <br><br>
+
+        <label for="age">Введите ваш возраст: </label><br><br>
+        <input required type="number" name="age" id="age" placeholder="Ваш возраст">
+        <br><br>
+        
+        <select required>
+            <option value="">Выбирите свой пол</option>
+            <option value="male">Мужской</option>
+            <option value="woman">Женский</option>
+        </select>
+        <br><br>
+
+        <label for="password">Введите пароль: </label><br><br>
+        <input required type="password" name="password" id="password" placeholder="Ваш пароль">
+        <br><br>
+
+        <label for="password">Повторите пароль: </label><br><br>
+        <input required type="password" name="password" id="password" placeholder="Повторите пароль">
+        <br><br>
+
+        <input required type="file" accept="image/png, image/jpeg" />
+        <br><br>
+
+        <label for="ok">Согласны на обработку персональныхх данных: </label><br><br>
+        <input required id="ok" type="checkbox">
+        <br><br>
+
+        <input type="submit" class="button">
+    </form>
+    <a href="./index.html">На главную</a>
+    <br><br>
+</body>
+</html>

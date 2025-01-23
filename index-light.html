@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="./general.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./index-light.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header class="container">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.qC2gxFTR3XVlSBuG1a_KPQAAAA%26pid%3DApi&f=1&ipt=5ee2016f6e15d5993206f618e5fdd8386e4eea068b029a8305e205e2495a4215&ipo=images" alt="Логотип сайта" id="logo">
+        <ul>
+            <li><a href="./registration.html">Регистрация</a></li>
+            <li><a href="#auth">Авторизация</a></li>
+            <li><a href="./account.html">Личный кабинет</a></li>
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#">Конкурсы</a></li>
+            <li><a href="#find">Поиск</a></li>
+            <li><a href="#footer">Контакты</a></li>
+            <li><a href="./index.html">Тёмная тема</a></li>
+        </ul>
+    </header>
+
+    <!-- Популярные конкурсы -->
+    <div class="block">
+        <h2>Популярные конкурсы</h2>
+        <div class="card">
+            <button id="left_button" class="button"><</button>
+            <div class="slider">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.qC2gxFTR3XVlSBuG1a_KPQAAAA%26pid%3DApi&f=1&ipt=5ee2016f6e15d5993206f618e5fdd8386e4eea068b029a8305e205e2495a4215&ipo=images" alt="Карточка конкурса">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem eaque magni optio, praesentium odio dolor sed aliquam reiciendis in libero harum quod deserunt, perspiciatis quidem eos facere dolorem fugiat soluta?</p>
+                <button class="button">Подробнее</button>
+            </div>
+            <button id="right_button" class="button">></button>
+        </div>
+        <p>2/5</p>
+    </div>
+
+    <!-- Авторизация -->
+    <div class="block" id="auth">
+        <h2>Авторизация</h2>
+        <form class="form">
+            <label for="email">Введите вашу почту: </label><br><br>
+            <input required type="email" name="email" id="email" placeholder="Ваша почта">
+            <br><br>
+            
+            <label for="password">Введите пароль: </label><br><br>
+            <input required type="password" name="password" id="password" placeholder="Ваш пароль">
+            <br><br>
+            
+            <a href="#">Забыли пароль?</a>
+            <br><br>
+
+            <button type="submit" class="button">Авторизоваться</button>
+        </form>
+    </div>
+
+    <!-- О нас -->
+    <div class="block" id="about">
+        <h2>О нас</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab impedit vero expedita numquam corrupti atque consequatur excepturi voluptatibus aperiam cum dignissimos architecto praesentium vitae nobis voluptates, at debitis. Facilis, blanditiis.</p>
+    </div>
+
+    <!--Приветствие от организаторов-->
+    <div class="block">
+        <h2>Приветствуем Вас</h2>
+        <p>Мы рады видеть Вас на нашем сайте. Посмотрите пожалуйста наш видеоролик</p>
+        <video src="./media/video.mp4" controls></video>
+    </div>
+
+    <!-- Наши конкурсы -->
+    <div class="block">
+        <h2>Наши конкурсы</h2>
+        <div class="grid_container">
+            <div class="conkurs">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.qC2gxFTR3XVlSBuG1a_KPQAAAA%26pid%3DApi&f=1&ipt=5ee2016f6e15d5993206f618e5fdd8386e4eea068b029a8305e205e2495a4215&ipo=images" alt="Картинка конкурса">
+                <p>Текст</p>
+            </div>
+            <div class="conkurs">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.qC2gxFTR3XVlSBuG1a_KPQAAAA%26pid%3DApi&f=1&ipt=5ee2016f6e15d5993206f618e5fdd8386e4eea068b029a8305e205e2495a4215&ipo=images" alt="Картинка конкурса">
+                <p>Текст</p>
+            </div>
+            <div class="conkurs">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.qC2gxFTR3XVlSBuG1a_KPQAAAA%26pid%3DApi&f=1&ipt=5ee2016f6e15d5993206f618e5fdd8386e4eea068b029a8305e205e2495a4215&ipo=images" alt="Картинка конкурса">
+                <p>Текст</p>
+            </div>
+            <div class="conkurs">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.qC2gxFTR3XVlSBuG1a_KPQAAAA%26pid%3DApi&f=1&ipt=5ee2016f6e15d5993206f618e5fdd8386e4eea068b029a8305e205e2495a4215&ipo=images" alt="Картинка конкурса">
+                <p>Текст</p>
+            </div>
+            <div class="conkurs">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.qC2gxFTR3XVlSBuG1a_KPQAAAA%26pid%3DApi&f=1&ipt=5ee2016f6e15d5993206f618e5fdd8386e4eea068b029a8305e205e2495a4215&ipo=images" alt="Картинка конкурса">
+                <p>Текст</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Поиск-->
+    <div class="block" id="find">
+        <h2>Поиск</h2>
+        <form class="form">
+            <input required type="search" placeholder="Поиск">
+            <br>
+            <br>
+            <button class="button">Искать</button>
+        </form>
+    </div>
+
+    <!-- Отзывы -->
+    <div class="block" id="coments">
+        <h2>Отзывы</h2>
+        <div class="card">
+            <button id="left_button" class="button"><</button>
+            <div class="slider">    
+                <p><span>Имя:</span> Илья</p>
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.qC2gxFTR3XVlSBuG1a_KPQAAAA%26pid%3DApi&f=1&ipt=5ee2016f6e15d5993206f618e5fdd8386e4eea068b029a8305e205e2495a4215&ipo=images" alt="Фотография автора">
+                <br>
+                <br>
+                <a href="#">Смотреть конкурс</a>
+                <p><span>Текст: </span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem eaque magni optio, praesentium odio dolor sed aliquam reiciendis in libero harum quod deserunt, perspiciatis quidem eos facere dolorem fugiat soluta?</p>
+                <p><span>Дата отзыва: </span>01.01.2025</p>
+
+                <button class="button">Подробнее</button>
+            </div>
+            <button id="right_button" class="button">></button>
+        </div>
+        <p>1/5</p>
+    </div>
+
+
+    <!-- Подписка на новости -->
+    <div class="block">
+        <h2>Подпишитесь на наши новости</h2>
+        <form class="form">
+            <label for="email">Введите вашу почту: </label><br><br>
+            <input required type="email" name="email" id="email" placeholder="Ваша почта">
+            <br><br>
+            
+            <label for="ok">Согласны на обработку персональных данных: </label>
+            <input required id="ok" type="checkbox">
+            <br><br>
+
+            <button type="submit" class="button">Авторизоваться</button>
+        </form>
+    </div>
+
+    <!-- Подвал сайта -->
+    <footer id="footer" class="container">
+        <!-- <ul>
+        </ul> -->
+        <ul>
+            <li><a href="tel:+74842234567">Телефон</a></li>
+            <li><a href="mailto:family@cosmos.ru">Email</a></li>    
+            <li><a href="./index-light.html">Главная</a></li>
+            <li><a href="./index.html">Главная тёмная</a></li>
+            <li><a href="./registration.html">Регистрация</a></li>
+            <li><a href="#">Конкурс</a></li>
+            <li><a href="./account.html">Личный кабинет</a></li>
+            <li><a href="./404.html">Страница не найдена</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background: #1e1e1e;
+    text-align: center;
+}
+
+a {
+    color: #fff;
+}
+
+.block {
+    min-height: 100vh;
+    text-align: center;
+    padding: 30px;
+}
+
+.button {
+    background: orangered;
+    border: #1e1e1e 1px solid;
+    padding: 10px;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.button:hover {
+    background: rgb(204, 54, 0);
+    cursor: pointer;
+}
+
+.button:active {
+    background: rgb(139, 37, 0);
+    cursor: pointer;
+}
+
+.form {
+    background: orangered;
+    border-radius: 30px;
+    padding: 10px;
+    width: 50%;
+    margin: 20px auto;
+    border: #1e1e1e solid 1px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    width: 80%;
+}
+
+@media (max-width:1920px) {
+    body {
+        font-size: 2em;
+    }
+    button, input, input[type='checkbox'], select {
+        font-size: 1em;
+    }
+}

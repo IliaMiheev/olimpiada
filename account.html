@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личный кабинет</title>
+    <link rel="stylesheet" href="./account.css">
+    <link rel="stylesheet" href="./general.css">
+</head>
+<body>
+    <h1>Личный кабинет</h1>
+    <form class="form">
+        <p>Имя: Илья</p>
+        <p>Фамилия: Михеев</p>
+        <p>Дата рождения: неизвестно</p>
+    </form>
+    <form class="form">
+        <label for="select">Выбирите развлечение: </label><br><br>
+        <select id="select" required>
+            <option value="">Выбирите атракцион</option>
+            <option value="Карусель">Карусель</option>
+            <option value="Американские горки">Американские горки</option>
+            <option value="Комната смеха">Комната смеха</option>
+            <option value="Пещера страха">Пещера страха</option>
+        </select>
+        <br><br>
+
+        <label for="date">Выберите дату: </label><br><br>
+        <input required type="date" id="date" value="2025-01-01" max="2025-01-01" min="2025-01-01">
+        <br><br>
+
+        <label for="time">Выберите время: </label><br><br>
+        <input required type="time" id="time" max="21:00" min="09:00">
+        <br><br>
+
+        <label for="count_people">Для скольки человек: </label><br><br>
+        <input required type="number" id="count_people" placeholder="Сколько будет людей?">
+        <br><br>
+
+        <button type="submit" class="button">Записаться</button>
+
+    </form>
+    <a href="./index.html">На главную</a>
+    <br><br>
+</body>
+</html>

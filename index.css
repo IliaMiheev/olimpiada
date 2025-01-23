@@ -36,7 +36,6 @@ header {
 /* Популярные конкурсы */
 .card {
     display: flex;
-    width: 50%;
     margin: auto;
 }
 
@@ -45,7 +44,10 @@ header {
     border-right: none;
     border-left: none;
     padding: 10px;
-    ;
+}
+
+.slider img {
+    width: 70%;
 }
 
 a {
